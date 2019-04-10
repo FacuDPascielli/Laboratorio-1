@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1554925569 source:c:\users\alumno\desktop\practica primer parcial\practica primer parcial\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+
+1554924804 c:\users\alumno\desktop\practica primer parcial\practica primer parcial\empleado.h
+
+1446667744 source:c:\users\alumno\desktop\practica primer parcial\practica primer parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+
