@@ -8,14 +8,14 @@ typedef struct
 
 typedef struct
 {
-    int descripcion[31];
     int id;
+    char descripcion[31];
 
 }eSector;
 
 typedef struct
 {
-    int descripcion[31];
+    char descripcion[31];
     int id;
 
 }menu;
@@ -40,6 +40,14 @@ typedef struct
 
 }eEmpleado;
 
+void inicializarEmpleados(eEmpleado emp[], int cantEmp);
+int menuAbm();
 void obtenerSector(int idSector, eSector sector[], char nombreSec[20], int cantSec);
-void mostrarEmpleados(eEmpleado emp, eSector sector[], int cantEmp, int cantSec, int cantEmp);
-int buscarLibre(eEmpleado emp, int cantEmp);
+void mostrarEmpleado(eEmpleado emp, eSector sector[], int cantSec);
+void mostrarEmpleados(eEmpleado emp[], eSector sector[], int cantEmp, int cantSec);
+int buscarLibre(eEmpleado emp[], int cantEmp);
+void altaEmpleado(eSector sector[], eEmpleado emp[], int cantEmp, int cantSec);
+int buscarEmpleado(eEmpleado vec[], int tam, int legajo);
+void modificarEmpleado(eEmpleado emp[], int cantEmp, eSector sector[], int cantSec);
+
+

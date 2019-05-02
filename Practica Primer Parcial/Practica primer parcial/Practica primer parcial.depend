@@ -11,3 +11,21 @@
 	<stdio.h>
 	<stdlib.h>
 
+1556743386 source:c:\users\facud\onedrive\escritorio\facu y juli\facu\laboratorio-1\practica primer parcial\practica primer parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"empleado.h"
+
+1556743352 source:c:\users\facud\onedrive\escritorio\facu y juli\facu\laboratorio-1\practica primer parcial\practica primer parcial\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+	<conio.h>
+	<ctype.h>
+
+1556740867 c:\users\facud\onedrive\escritorio\facu y juli\facu\laboratorio-1\practica primer parcial\practica primer parcial\empleado.h
+
